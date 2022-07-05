@@ -71,6 +71,13 @@ class PerguntaAppState extends State<PerguntaApp> {
     return _perguntaSelecionada < _perguntas.length;
   }
 
+  void _reiniciarFormulrio() {
+    setState(() {
+      _perguntaSelecionada = 0;
+      _pontuacaoTotal = 0;
+    });
+  }
+
   void responder(int pontuacao) {
     if (temPerguntaSelecionada) {
       setState(
@@ -105,6 +112,7 @@ class PerguntaAppState extends State<PerguntaApp> {
             : Resultado(
                 textoSucesso: textoSucesso,
                 pontos: _pontuacaoTotal,
+                quandoReiniciarQuestoes: _reiniciarFormulrio,
               ),
       ),
     );
