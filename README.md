@@ -1,16 +1,12 @@
-# playground
+## 🛠 FLUTTER APP ESTUDOS - PERGUNTAS APP
 
-A new Flutter project.
+Um simples aplicativo de perguntas e respostas utilizando o Flutter.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Autores
 
-A few resources to get you started if this is your first Flutter project:
+- [@omatheusreis](https://www.github.com/omatheusreis)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## License
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
